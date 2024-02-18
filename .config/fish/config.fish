@@ -5,6 +5,8 @@ end
 
 starship init fish | source
 
+set --export PATH $HOME/.local/bin $PATH
+
 # asdf
 source /opt/asdf-vm/asdf.fish
 
@@ -26,3 +28,6 @@ alias sail='vendor/bin/sail'
 # nix
 any-nix-shell fish --info-right | source
 direnv hook fish | source
+
+# zoxide
+zoxide init --cmd cd fish | source

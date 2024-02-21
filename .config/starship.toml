@@ -3,7 +3,7 @@
 add_newline = true
 
 [aws]
-symbol = '☁️ '
+disabled = true
 
 [nix_shell]
 symbol = '❄️ '
